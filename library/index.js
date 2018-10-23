@@ -69,7 +69,7 @@ class AudioRecorder extends require(`events`).EventEmitter {
 				// Precision in bits
 				`-b`, `16`,
 				// Audio type
-				`-t`, `wav`,
+				`-t`, `mp3`,
 				// Pipe
 				`-`
 			);
